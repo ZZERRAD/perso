@@ -36,8 +36,51 @@ nav ul{
 
 nav ul li a {
     margin:45px;
-    font-family: "Courier New", Courier, monospace;
-    color:#C28807;
+    font-family: "Brush Script MT, cursive";
+    color:#CE9A28;
     font-size: 25px;
     font-weight: 300;
 }
+
+.down-cv{
+    background-color: #1f1f1d;
+    color:#CE9A28;
+    border:2px solid #373636;
+    margin:20px;
+    font-size: 16px;
+}
+
+.personal_pic{
+    display: inline;
+    margin:45px;
+}
+
+h1{
+    color:#CE9A28;
+    font-size: 45px;
+    /*font-family: "Courier New", Courier, monospace;*/
+    font-family:"Brush Script MT", cursive;
+    font-weight: 390;
+    /*text-align: center;*/
+}
+p {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+.iconDetails {
+    float:left;  
+} 
+    
+.container2 { 
+    width:900px;
+    height:400px;
+    padding:1%;
+    margin-left:20%;
+    margin-top: 10%;
+    background-color:rgba(0, 0, 0, 0.6);
+    
+}
+    
