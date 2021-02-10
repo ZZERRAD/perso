@@ -62,10 +62,10 @@ h1{
     font-size: 45px;
     font-family:'Raleway', sans-serif; 
     font-weight:200;
-    margin-left: 2%;
+    margin-left: 18.5%;
     /*text-align: center;*/
 }
-p {
+.normal-paragraph {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight:200;
@@ -78,7 +78,7 @@ p {
     font-size: 26px;
     font-weight:thin;
     font-family: 'Raleway', sans-serif;
-    margin-left: 3.7%;
+    margin-left: 20%;
 }
 
 hr{
