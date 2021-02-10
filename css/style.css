@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-    background-color: #E0DDDD;
+    background-image: url('/body_backgroud.jpg');
     margin: 0px;
     padding: 0px;
 }
@@ -29,9 +29,9 @@ nav ul{
 }
 
 nav ul li a {
-    margin:60px;
-    font-family: "Times New Roman";
-    color:#A97500;
+    margin:45px;
+    font-family: "Courier New", Courier, monospace;
+    color:#C28807;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 300;
 }
