@@ -36,10 +36,11 @@ nav ul{
 
 nav ul li a {
     margin:45px;
-    font-family: "Brush Script MT, cursive";
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
     color:#CE9A28;
     font-size: 25px;
-    font-weight: 300;
+    
 }
 
 .down-cv{
@@ -47,6 +48,7 @@ nav ul li a {
     color:#CE9A28;
     border:2px solid #373636;
     margin:20px;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -56,20 +58,32 @@ nav ul li a {
 }
 
 h1{
-    color:#CE9A28;
+    color:#fdfdfd;
     font-size: 45px;
-    /*font-family: "Courier New", Courier, monospace;*/
-    font-family:"Brush Script MT", cursive;
-    font-weight: 390;
+    font-family:'Raleway', sans-serif; 
+    font-weight:200;
+    margin-left: 2%;
     /*text-align: center;*/
 }
 p {
     color: white;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    font-size: 21px;
+    margin-left: 20%; 
+    line-height: 38px;   
+}
+.incise{
+    color:white;
+    font-size: 26px;
+    font-weight:thin;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3.7%;
 }
 
+hr{
+    border-color:#CE9A28;
+}
 .iconDetails {
     float:left;  
 } 
@@ -83,4 +97,5 @@ p {
     background-color:rgba(0, 0, 0, 0.6);
     
 }
-    
+
+   
