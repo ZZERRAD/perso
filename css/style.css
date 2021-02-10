@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-    background-image: url('/body_backgroud.jpg');
+    background-image: url('../body_backgroud.jpg');
     margin: 0px;
     padding: 0px;
 }
