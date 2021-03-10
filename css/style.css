@@ -3,7 +3,7 @@
 
 @media (max-width: 650px) {
 	body.custom-background {
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 }
 
