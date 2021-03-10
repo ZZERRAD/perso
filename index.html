@@ -5,29 +5,30 @@
     <title>Zaid Zerrad</title>
     
   </head>
-  <link rel="shortcut icon" type="image/png" href="./icon_logo.png"/>
+  <link rel="shortcut icon" type="image/png" href="images/icon_logo.png"/>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
   <body>
-    <section>
+    <section class="section1" style="width: 100%;">
       <!--Navigation ------------------------------------------>
       <nav>
         <!-- logo --------------------------------------------->
-        <img src="circle-cropped.png" width="100" height="100">
+        <a href="" onclick="window.location.reload();"><img  src="images/circle-cropped.png" width="100" height="100"></a>
         <!-- menu --------------------------------------------->
         <ul>
-          <li><a href="#about" >About</a></li>
-          <li><a href="#skills" >Skills</a></li>
-          <li><a href="#" >Projects</a></li>
-          <li><a href="#" >Contact</a></li>
+          <li><a href="#about" style="margin-left: 280px;"  class="menu" >About</a></li>
+          <li><a href="#skills" class="menu">Education</a></li>
+          <li><a href="#skills" class="menu">Skills</a></li>
+          <li><a href="#" class="menu">Projects</a></li>
+          <li><a href="#contact" class="menu">Contact</a></li>
         </ul>
-        <button class="down-cv">Download CV</button>
+        <a href="./Zerrad_CV.pdf" download><button class="down-cv">Download CV</button></a>
       </nav>
     </section>
     <div id="about">
     <div class='container1'>
       <div>
-          <img height="300px" width="200px" src="./Personal_picture.png"  class='iconDetails'>
+          <img height="300px" width="200px" src="images/Personal_picture.png"  class='iconDetails'>
         </div>  
       <div style='margin-left:60px;'>
         <h1>&nbsp;Zaid Zerrad</h1>
@@ -45,7 +46,7 @@
           <h2>&nbsp;Skills</h2>
           <hr>
           <div>
-            <img height="100px" width="100px" src="./coding.png"  class='iconDetails'>
+            <img height="100px" width="100px" src="images/coding.png"  class='iconDetails'>
           </div>
           <p class="my-span">
             C, C++, JAVA, Python, bash, Scheme
@@ -53,9 +54,22 @@
         </div>
       </div>
       </div>
-    
+    </div>
+      <section id="contact" class="section2">
+        <!--Navigation ------------------------------------------>
+        <nav>
+          <!-- logo --------------------------------------------->
+          <a href="" onclick="window.location.reload();"><img class="footer_logo" src="images/icon_logo.png" width="80" height="80" ></a>
+          <!-- menu --------------------------------------------->
+          <ul>
+            <li><a href="#" ><img class="menu3" src="images/LI-Logo.png" width="100" height="40"></a></li>
+            <li><a href="#"><img class="menu3" src="images/pngfind.com-github-logo-png-405209.png" width="50" height="50"></a></li>
+            <li><a href="#"><img class="menu3" src="images/envelope-closed-512.png" width="50" height="50"></a></li>
+          </ul>
+        </nav>
+      </section>
   </body>
-</html>
+
 
 
 
