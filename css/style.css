@@ -3,7 +3,7 @@
 
 @media (max-width: 650px) {
 	body.custom-background {
-		background-attachment: fixed;
+		background-attachment: scroll;
 	}
 }
 
@@ -26,9 +26,11 @@ a{
 }
 
 .section2{
+    position: fixed;
+    bottom: 0px; 
     width: 100%;
     height: 100px;
-    background-color: #181717;
+    background-color: #0f0f0f;
 }
 nav{
     display:flex;
@@ -39,6 +41,11 @@ nav{
 }
 nav ul{
     display: flex;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
 }
 
 .footer_logo{
