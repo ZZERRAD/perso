@@ -26,6 +26,9 @@ a{
 }
 
 .section2{
+    font-weight:300;
+    font-family: 'Raleway', sans-serif;
+    color:#CE9A28;
     position: fixed;
     bottom: 0px; 
     width: 100%;
@@ -138,7 +141,7 @@ hr{
     
 .container1{ 
     width:900px;
-    height:400px;
+    height:320px;
     padding:2%;
     margin-left:20%;
     margin-top: 10%;
