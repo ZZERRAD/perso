@@ -162,6 +162,13 @@ hr{
     to {margin-left: 20%; background-color:rgba(0, 0, 0, 0.671);}
 }
 
+@keyframes moove2 {
+    from {margin-left: 0%;}
+    to {margin-left: 20%;}
+    from {margin-left: 20%;}
+    to {margin-left: 0%;}
+}
+
 @keyframes affichage2 {
     from {color: black;}
     to {color: #CE9A28;}
